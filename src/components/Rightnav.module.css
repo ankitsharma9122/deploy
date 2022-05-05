@@ -1,0 +1,30 @@
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.subright{
+    margin:1rem;
+}
+.ul{
+    position: absolute;
+    background-color: purple;
+    padding: 10px;
+    list-style-type:none;
+    margin:10px;
+    transform: translateY(30px);
+    
+    opacity: 0;
+}
+.ul> li{
+    margin: 10px;
+}
+.subright:nth-child(1):hover .ul{
+    display: block;
+    position: absolute;
+    transition-property: width;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}

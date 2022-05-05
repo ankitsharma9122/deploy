@@ -1,0 +1,10 @@
+.left{
+    margin: 1rem;
+}
+.img{
+    height: 3rem;
+    width:4rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    transform: rotate(-20deg);
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Leftnav from './components/Leftnav';
+import Rightnav from './components/Rightnav';
+import style from './App.module.css';
+import eclectica from './assets/eclectica.png';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <div className={style.main}>
+    <Leftnav/>
+    <Rightnav/>
+    </div>
+    <div className={style.body}>
+ 
+    <h1 className={style.gap}>Make cool Landing pages with App</h1>
+    <div className={style.gap}>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Impedit nihil tenetur minus quidem est deserunt molestias
+    accusamus harum ullam tempore debitis et, expedita, 
+    repellat delectus aspernatur neque itaque qui quod.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Impedit nihil tenetur minus quidem est deserunt molestias
+    accusamus harum ullam tempore debitis et, expedita, 
+    repellat delectus aspernatur neque itaque qui quod.
+    </div>
+    </div>
+   
     </div>
   );
 }

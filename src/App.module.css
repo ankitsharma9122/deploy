@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 10;
+    background-color: blue;
+}
+.leftnav{
+    display:flex;
+    flex:5;
+}
+.rightnav{
+    display:flex;
+    flex:5;
+    float: right;
+    color: aliceblue;
+    font-weight:600;
+}
+.body{
+   
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding:1rem;
+    width: 40%;
+    margin: 2rem;
+    align-items: center;
+    letter-spacing:1px;
+}
+.gap{
+    margin:1rem;
+}
